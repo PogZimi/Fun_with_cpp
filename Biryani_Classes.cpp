@@ -2,6 +2,9 @@
 #include<vector>
 using namespace std;
 
+// CodeChef question --> solved one 
+
+
 class biryani_classes{
 private:
    int finx1,size,x,y;
