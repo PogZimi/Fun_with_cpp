@@ -1,10 +1,7 @@
-
-// USE ODD VALUES FOR THE BASE OF TRIANGLE AS IT CANNOT WORK EFFICIENTLY FOR EVEN VALUES CUZ IMMA TOO LAZY. I WILL POST ANOTHER ONE SOON
-
 #include<iostream>
 using namespace std;
 
-// IDENTIFIES IF BASE IS ODD OR EVEN 
+// IDENTIFIES IF BASE IS ODD OR EVEN
 bool calculate_base(int y, bool val){
      if(y%2==0){
          val = false;
@@ -38,7 +35,7 @@ int main(){
     int k, owl=1,inc=0;
   
     // USER-INPUT
-    cout << "|||| Enter the base length of triangle ( ODD ) : |||| --> ";
+    cout << "|||| Enter the base length of triangle ( NO Decimals) : |||| --> ";
     cin >> k;
     system("cls");
 
