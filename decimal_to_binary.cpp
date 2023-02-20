@@ -3,8 +3,6 @@
 using namespace std;
 
 
-
-
 void k_start(){
 
     int number, counter=0, quotient=0;
