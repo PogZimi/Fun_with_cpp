@@ -2,18 +2,8 @@
 #include<vector>
 using namespace std;
 
-/*
-Note : 
-[]
 
-Calculators would have a different answer for the binary conversion
-Although their answers are right, but they added extra digits to complete the pairs of 4 digits
 
-If you want to verify the binary conversion : 
- Copy paste the binary conversion of your input ( from this program ) & paste it into calculator 
- It will give the correct answer in decimal value ( input value ).
-
-*/
 
 void k_start(){
 
