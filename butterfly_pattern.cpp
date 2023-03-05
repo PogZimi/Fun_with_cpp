@@ -20,7 +20,7 @@ void upper_part(int x){
      int star_count=1; 
      
      const int y = n;
-     cout << n << endl;
+     int equate = y + 2;
 
      for(int i = 0; i < y/2; i++){
 
@@ -40,9 +40,7 @@ void upper_part(int x){
             star_count++;
             cout << endl;
      }
-    
      
-     int equate = y + 2;    
 
      for(int i = 0; i < equate; i++){
             cout << "* ";
