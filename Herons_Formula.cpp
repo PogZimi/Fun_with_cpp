@@ -56,7 +56,7 @@ void calculate_area(vector<int>& factorized_list, string a_un){
                   }    
          }
          
-         for(int i = 0; i < factorized_list.size()-1; i++){
+         for(int i = 0; i < factorized_list.size(); i++){
                   if(factorized_list[i] != 0){
                         root = root * factorized_list[i];            
                   }
