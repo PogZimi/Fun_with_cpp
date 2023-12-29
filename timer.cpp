@@ -21,7 +21,7 @@ int main(){
     while(true){
       system("cls");
       
-      cout << ":: Milo's Timer ::" << endl;
+      cout << ":: .. Tick Tock .. ::" << endl;
       cout << endl;
       cout << "-------------" << endl;
       cout << hr << " : " << minute << " : " << second << "   | " << endl;
