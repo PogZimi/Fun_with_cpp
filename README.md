@@ -1,5 +1,5 @@
 # FUN WITH *C Family*
-# NAMASTE,
+# Namaste,
 
 *You'll find a collection of my self-taught C++ and C language programs in this repository. Some of these files are from my early learning days, and I've recently reuploaded them. Please pardon any imperfections you might come across; I'm continuously learning and improving.*
 
