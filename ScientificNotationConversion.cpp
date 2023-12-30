@@ -14,7 +14,7 @@ void scientific_notation1(float x){
         x=x/F_TEN;
         size++;
     }
-    printf("Format2 : %.3f x 10^%d \n", x, size);
+    printf("Format1 : %.3f x 10^%d \n", x, size);
   }
 }
 
