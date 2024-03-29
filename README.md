@@ -7,5 +7,7 @@
 
 *I'm a self-taught kiddo, not a professional or a college student; rather, I consider myself a learner in this vast field. I welcome constructive feedback and suggestions for improvement. Let's share our knowledge and experiences in the spirit of learning and growth.*
 
+I basically use this repo as a code archival system lol!
+
 # I am a *proud* & *passionate self taught genius methhead playboy programmer!*  
 # *"Code is poetry written by the mind, executed by the machine."* - Dennis Ritchie
