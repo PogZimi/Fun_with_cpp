@@ -34,7 +34,7 @@ int main(){
         unit_digit_product = (unit_digit_product * (numbers[i]) ) %10;
         
     }
-    cout << unit_digit_product << endl;
+    cout << "UNIT DIGIT OF THE PRODUCT IS : " << unit_digit_product << endl;
     
     return 0;
 }
