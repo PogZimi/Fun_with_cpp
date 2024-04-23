@@ -24,15 +24,23 @@ int cyclicity(int x){
 }
 
 int unit_digit(int num, int pow_){
-    int number = num%10;
-    int power = pow_%100;
-    int unit_num=0;
-    int cyclicity_;
-    int new_pow;
-    int index=0;
+    int number=num%10;
+    int power=pow_%100;
+    
+    int unit_num=0,index=0,cyclicity_,new_pow;
+
+    if(pow_==0){
+        unit_num=1;
+        goto end;
+    }
+    else if(pow_==1){
+        unit_num=num;
+        goto end;
+    }
     if(number==0 || number==1 || number==5 || number==6){
          unit_num=number;
     }
+    
     else{
          for(int i =0; i < powers.size(); i++){
                if(number==powers[i]){
@@ -45,10 +53,13 @@ int unit_digit(int num, int pow_){
     if(new_pow==0){
         new_pow=cyclicity_pattern[index][cyclicity_pattern[index].size()-1];
     }
-    
+
     unit_num = pow(number, new_pow);
+    unit_num = unit_num%10;
   }
-   return unit_num%10;
+
+   end:
+   return unit_num;
 }
 
 #endif
