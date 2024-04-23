@@ -35,11 +35,20 @@ int cyclicity(int x){
     return 2;
 }
 
-int unit_digit(int number, int power){
-    int unit_num=0;
-    int cyclicity_;
-    int new_pow;
-    int index=0;
+int unit_digit(int num, int pow_){
+    int number=num%10;
+    int power=pow_%100;
+    
+    int unit_num=0,index=0,cyclicity_,new_pow;
+
+    if(pow_==0){
+        unit_num=1;
+        goto end;
+    }
+    else if(pow_==1){
+        unit_num=num;
+        goto end;
+    }
     if(number==0 || number==1 || number==5 || number==6){
          unit_num=number;
     }
@@ -58,24 +67,25 @@ int unit_digit(int number, int power){
     }
 
     unit_num = pow(number, new_pow);
+    unit_num = unit_num%10;
   }
-   return unit_num%10;
+
+   end:
+   return unit_num;
 }
 
 int main(){
 
-    int num, num_unit;
-    int power, pow_unit;
+    int num;
+    int power;
     int result;
     cout << "Enter the number : "; 
     cin >> num;
     cout << "( " << num << " )^";
     cin>>power;
-     
-    num_unit = num%10;
-    pow_unit = power%100;
+
     
-    result = unit_digit(num_unit, pow_unit);
-    cout << result << endl;
+    result = unit_digit(num, power);
+    cout << "UNIT DIGIT is : " << result << endl;
     return 0;
 }
