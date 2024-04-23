@@ -34,7 +34,7 @@ int unit_digit(int num, int pow_){
         goto end;
     }
     else if(pow_==1){
-        unit_num=num;
+        unit_num=number;
         goto end;
     }
     if(number==0 || number==1 || number==5 || number==6){
